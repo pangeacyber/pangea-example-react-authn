@@ -1,7 +1,7 @@
 import { useAuth } from "@pangeacyber/react-auth";
 
 const Profile = () => {
-  const { user } = useAuth();
+  const { user, refresh } = useAuth();
 
   return (
     <div className="profile">
@@ -11,6 +11,8 @@ const Profile = () => {
       <div>Last Name: {user?.profile?.last_name}</div>
       <div>Phone: {user?.profile?.phone}</div>
       <div>Token: {user?.active_token?.token}</div>
+      <p />
+      <button onClick={(e) => refresh() }>Refresh Token</button>
     </div>
   );
 }
