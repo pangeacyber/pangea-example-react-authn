@@ -93,6 +93,10 @@ button {
   font-weight: 400;
   line-height: 38px;
   cursor: pointer;
+
+  &:disabled {
+    opacity: 0.8;
+  }
 }
 
 /*

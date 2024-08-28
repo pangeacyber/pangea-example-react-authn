@@ -1688,13 +1688,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pangeacyber/react-auth@0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@pangeacyber/react-auth/-/react-auth-0.0.13.tgz#16dddee3f2d860f9d6c27a9706eacc8f9739310c"
-  integrity sha512-2DhkRWbkY1icC7joaz6TfH76WW9KvkLDzooJ6UOvpSX40EiGi4XU2dDXsWRwwC7h9BDtMQ5/wesIYBXP4Doxzw==
+"@pangeacyber/react-auth@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@pangeacyber/react-auth/-/react-auth-0.0.14.tgz#b4bcfe8b85587c035bf3c63df3d54d64cd2854a7"
+  integrity sha512-I6i5F0k9Kaja4YLAGJy8LHb05BUVzb1LoAN48M8oqEh6qvPmremvOy+v23ZYLIfqkeqyOWVXC5i1R4A6iiX/bw==
   dependencies:
-    axios "^1.7.2"
-    jose "^5.4.0"
+    axios "^1.7.5"
+    jose "^5.7.0"
     lodash "^4.17.21"
 
 "@pkgjs/parseargs@^0.11.0":
@@ -2904,7 +2904,7 @@ axe-core@^4.9.1:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.10.0.tgz#d9e56ab0147278272739a000880196cdfe113b59"
   integrity sha512-Mr2ZakwQ7XUAjp7pAwQWRhhK8mQQ6JAaNWSjmjxil0R8BPioMtQsTLOolGYkji1rcL++3dCqZA3zWqpT+9Ew6g==
 
-axios@^1.7.2:
+axios@^1.7.5:
   version "1.7.5"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.5.tgz#21eed340eb5daf47d29b6e002424b3e88c8c54b1"
   integrity sha512-fZu86yCo+svH3uqJ/yTdQ0QHpQu5oL+/QE+QPSv6BZSkDAoky9vytxp7u5qk83OJFS3kEBcesWni9WTZAv3tSw==
@@ -6359,7 +6359,7 @@ jiti@^1.21.0:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.6.tgz#6c7f7398dd4b3142767f9a168af2f317a428d268"
   integrity sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==
 
-jose@^5.4.0, jose@^5.8.0:
+jose@^5.7.0, jose@^5.8.0:
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/jose/-/jose-5.8.0.tgz#0165cee08d89a6546d7eeeb9524dc42f458a56de"
   integrity sha512-E7CqYpL/t7MMnfGnK/eg416OsFCVUrU/Y3Vwe7QjKhu/BkS1Ms455+2xsqZQVN57/U2MHMBvEb5SrmAZWAIntA==
